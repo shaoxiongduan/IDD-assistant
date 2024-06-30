@@ -1,0 +1,7 @@
+test_df.csv: test queries and ground truth answers for evaluating LLM responses.
+
+train-pt.json/test-pt.json: train/test data for continued pre-training and embedding fine-tuning.
+train-sft.json: train data for sft.
+
+test-query-ref.json: test queries with references rerrieved from the reference docs. This is used to 
+construct prompts for obtaining the responses from an LLM. 
